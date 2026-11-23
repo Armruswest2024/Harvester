@@ -36,7 +36,7 @@ NON_RU_OUT    = ASSETS_DIR / "non_ru.txt"
 TCP_TIMEOUT   = 3.0          # фаза 1 — таймаут подключения
 IP_TIMEOUT    = 5            # фаза 2 — получение IP через прокси
 SPEED_TIMEOUT = 10           # фаза 2 — общий таймаут speedtest
-MIN_SPEED     = 48           # мин. скорость Мбит/с для прохождения
+MIN_SPEED     = 10           # мин. скорость Мбит/с для прохождения
 
 MAX_WORKERS = 100            # параллельных TCP-подключений (фаза 1)
 MAX_XRAY    = 60             # parallel xray tests (phase 2)
