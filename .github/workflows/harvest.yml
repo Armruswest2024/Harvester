@@ -46,9 +46,9 @@ jobs:
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
           git add assets/
-          if git diff --cached --quiet; then
-            Write-Host "No changes to commit"
-          else
+          if (-not (git diff --cached --quiet)) {
             git commit -m "Update node lists [ci skip]"
             git push
-          fi
+          } else {
+            Write-Host "No changes to commit"
+          }
