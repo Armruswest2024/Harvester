@@ -2,8 +2,8 @@ name: Harvester
 
 on:
   schedule:
-    # Каждые 4 часа (~900 мин/мес, лимит 2000)
-    - cron: '0 */4 * * *'
+    # Каждые 2 часа (~1800 мин/мес, лимит 2000)
+    - cron: '0 */2 * * *'
   workflow_dispatch:   # Ручной запуск из GitHub UI
 
 permissions:
