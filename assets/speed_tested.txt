@@ -1,3 +1,4 @@
+# profile-title:  🌍  RuGlobalNet 🇷🇺
 vless://18baf01c-99b2-4675-997c-1ec73e3eadff@45.158.197.237:8443?encryption=none&flow=xtls-rprx-vision&fp=firefox&headerType=none&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&sid=6ba85179e30d4fc2&sni=apple.com&type=tcp#@Ariston_ch-371ms | 392Mb
 vless://8344360f-0349-4784-a19f-33fd92e89389@104.19.28.32:443?allowInsecure=0&encryption=none&fp=chrome&insecure=0&mode=gun&security=tls&serviceName=v3-direct&sni=sync.2ml.bid&type=grpc#@Ariston_ch-1275ms | 113Mb
 vless://2ccb06b6-9eac-44eb-ade7-c1e5afb8e7df@13.141.36.15:443?encryption=none&fp=firefox&pbk=PslSaSQWP4BZZmkL7irab4FMti8sW6BvoC7ytFjJFyc&security=reality&sid=cc678f10161992a9&sni=a80b5386.fi2.h1clayd.click&type=tcp#%F0%9F%87%AB%F0%9F%87%AE%20FI%20reality-0374 | 96Mb
