@@ -588,6 +588,8 @@ async def main():
     pinged, sped = await phase2(alive)
 
     # Сохраняем
+    HEADER = "# profile-title:  🌍  RuGlobalNet 🇷🇺"
+
     def fmt(n: Node, speed=None, ip=None):
         tag = f" | {speed}Mb" if speed else ""
         has_comment = "#" in n.raw and not n.raw.endswith(tag)
@@ -595,7 +597,7 @@ async def main():
         return f"{n.raw}{c}{tag}".rstrip()
 
     def write(path, lines):
-        path.write_text("\n".join(lines), encoding="utf-8")
+        path.write_text(HEADER + "\n" + "\n".join(lines), encoding="utf-8")
         print(f"  [output] {path.name}: {len(lines)} entries")
 
     write(PING_OUT,       [fmt(n, None, ip) for n, ip, _loc in pinged])
